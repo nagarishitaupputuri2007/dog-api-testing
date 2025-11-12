@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "Dog API Testing Collection",
+    "_postman_id": "d1234e56-f78a-9b01-cd23-4567890efabc",
+    "description": "Postman collection to test random dog images API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Random Dog Image",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://dog.ceo/api/breeds/image/random",
+          "protocol": "https",
+          "host": [
+            "dog",
+            "ceo"
+          ],
+          "path": [
+            "api",
+            "breeds",
+            "image",
+            "random"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
